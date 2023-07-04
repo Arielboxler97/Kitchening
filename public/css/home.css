@@ -194,4 +194,26 @@ display: none;
         /*cada 3 elementos quiero que tenga esto*/
         margin-right: 0;
     }
+
+    
+  /*footer*/
+  .home-footer-nav-menu {
+    background-color: var(--colorRojo);
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .home-footer-nav-menu ul li {
+    padding: 3px 5px;
+    display: inline-block;
+    border-right: 1px solid white;
+   
+    
+  }
+  .home-footer-nav-menu ul li:last-child {
+    margin-bottom: 0;
+    border-right: none;  
+  }
+   
  }
